@@ -28,7 +28,7 @@ public	static void runTest(String strSearchString, String strPageTitle) {
             System.out.println("Expected page title was " + strPageTitle + ", but was " + driver.getTitle() + " instead");
         }
          
-        //Close the browser
+        //Close the browser 
         driver.quit();
 	}
 
